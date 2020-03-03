@@ -1,0 +1,23 @@
+syntax = "proto3";
+package api;
+
+import "pagenation.proto";
+
+service ChatbotService {
+  rpc ListChatbot (ListChatbotRequest) returns (ListChatbotResponse) {}
+}
+
+message Chatbot {
+  string id = 1;
+  string messages = 2;
+}
+
+message ListChatbotRequest {
+  string limit = 1;
+  string offset = 2;
+}
+
+message ListChatbotResponse {
+  repeated Chatbot chatbots = 1;
+  Pagenation pagenation = 2;
+}

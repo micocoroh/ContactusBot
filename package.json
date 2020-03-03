@@ -1,0 +1,31 @@
+{
+  "name": "contactus",
+  "version": "1.0.0",
+  "description": "contactus はお問い合わせのチャットボットをお手軽に作れるサービスです。",
+  "main": "index.js",
+  "dependencies": {
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-react-app": "^9.1.1",
+    "react-hot-loader": "^4.12.19",
+    "typescript": "^3.8.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micocoroh/contactus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micocoroh/contactus/issues"
+  },
+  "homepage": "https://github.com/micocoroh/contactus#readme"
+}
